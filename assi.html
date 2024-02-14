@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Final Project</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style type="text/css">
+    html{
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dedede;
+    padding: 5px;
+    margin: 15px;
+    font-size: 25px;
+    font-family:Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, sans-serif;
+    font-size: 1.95em;
+}
+
+h2{
+    text-align:center;
+  }
+
+li{
+    margin-top: 20px;
+}
+
+img{
+    border: 5px solid blue;
+    border-radius: 35px;
+    width: 100%;
+  }
+
+.label{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+figcaption{
+  text-align: center;
+}
+
+
+  .grid {
+    display: grid;
+    grid-template-columns: 95%;
+    justify-content: space-evenly;
+    row-gap: 10px;
+  }
+
+  .grid img{
+    width: 100%;
+  }
+
+
+
+
+figure{
+  position: relative;
+}
+
+figure img{
+  display: block;
+  border: 0;
+  border-radius: 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+figcaption{
+  background: black;
+  position: static;
+  color: white;
+  border-top: 0;
+  padding-top: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+@media screen and (min-width:772px){
+  .grid img, figcaption{
+    width: 40%;
+    border-radius: 50%;
+    grid-template-columns: 45% 45%;
+    align-items: center;
+  }
+  
+}
+
+  @media screen and (min-width:998px){
+    .grid{
+      background-color: orangered;
+    }
+
+  }
+
+  </style>
+
+
+</head>
+
+<body>
+  <header>
+    <h1 id="top">Final Project</h1>
+  </header>
+
+  <main>
+    <p>Replace all of the images with images of your choice and appropriate captions. Include two paragraphs about the contents of your site.  Do not remove the skip to top link.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque blanditiis facilis excepturi exercitationem modi! Ea cum dicta tenetur eos ut dolores debitis ipsam incidunt. Quam debitis culpa vitae harum temporibus?</p>
+    
+    <div class = "grid">
+        <figure>
+        <img src="../images/Red.jpeg" alt="Red" width="200" alt="Blue">
+        <figcaption>Red</figcaption>
+        </figure>
+        <figure>
+        <img src="images/Orange.png" alt="Orange" width="200">
+        <figcaption>Orange</figcaption>
+        </figure>
+        <figure>
+        <img src="images/Yellow.png" alt="Yellow" width="200">
+        <figcaption>Yellow</figcaption>
+        </figure>
+        <figure>
+        <img src="images/Green.png" alt="Green" width="200">
+        <figcaption>Green</figcaption>
+        </figure>
+        <figure>
+        <img src="images/Blue.png" alt="Blue" width="200">
+        <figcaption>Blue</figcaption>
+        </figure>
+        <figure>
+        <img src="images/Indigo.jpeg" alt="Indigo" width="200">
+        <figcaption>Indigo</figcaption>
+        </figure>
+        <figure>
+        <img src="images/Purple.png" alt="Purple" width="200">
+        <figcaption>Purple</figcaption>
+        </figure>
+        <figure>
+        <img src="images/Pink.jpeg" alt="Pink" width="200">
+        <figcaption>Pink</figcaption>
+        </figure>
+        <figure>
+        <img src="images/White.png" alt="White" width="200">
+        <figcaption>White</figcaption>
+        </figure>
+    </div>
+  </main>
+
+  <footer>
+    <a href="#top">Jump to the Top</a>
+  </footer>
+</body>
+
+</html>
